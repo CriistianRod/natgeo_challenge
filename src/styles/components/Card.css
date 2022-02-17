@@ -1,0 +1,77 @@
+.card {
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align: top;
+  width: 100%;
+}
+
+.card:first-child {
+  margin-top: 0;
+}
+
+.card__link {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.card__span--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.card__backgroundImage {
+  height: 240px;
+  background-image: url('https://i.natgeofe.com/n/28842f42-79a8-4c70-a88a-3bcc017fd18c/ITD_Clean_Square_without_info_4x3.jpg?w=636&h=477');
+  background-size: cover;
+}
+
+.card__footer {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+.card__title {
+  color: black;
+  text-align: left;
+  font-family: GeoEditMedium, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 1.273;
+  font-weight: 800;
+  width: 90%;
+}
+
+.card__buttonArea {
+  margin-top: 20px;
+  display: flex;
+}
+
+.card__button {
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: white;
+  display: flex;
+}
+
+.card__button img {
+  width: 16px;
+  margin-right: 5px;
+}

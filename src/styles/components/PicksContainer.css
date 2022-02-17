@@ -1,0 +1,19 @@
+.picksContainer {
+    text-decoration: none;
+}
+
+.picksContainer__title {
+  font-family: GeoBrandBold, CenturyGothic, AppleGothic, Gill Sans, Gill Sans MT,
+    sans-serif;
+  font-size: 32px;
+  letter-spacing: 3px;
+  /* line-height: 1.25; */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  border-left: 5px solid #fc0;
+  padding-left: 15px;
+  margin-bottom: 32px;
+}

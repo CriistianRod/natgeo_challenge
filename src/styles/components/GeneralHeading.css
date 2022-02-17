@@ -1,0 +1,38 @@
+.generalHeading {
+  padding: 50px 0 60px;
+}
+
+.generalHeading__title {
+  font-family: GeoBrandReglar, CenturyGothic, AppleGothic, Gill Sans,
+    Gill Sans MT, sans-serif;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  margin: 0;
+}
+
+.generalHeading__dek {
+  letter-spacing: 0.1s;
+  line-height: 1.5;
+  margin: 16px 0 24px;
+}
+
+.generalHeading__link {
+  background-image: linear-gradient(120deg, #fc0, #fc0);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  text-decoration: none;
+  border-bottom: 2px solid #fc0;
+  transition: background-size 0.125s ease-in;
+  color: white;
+}
+
+.generalHeading__line {
+  background-color: #fc0;
+  height: 4px;
+  line-height: 0;
+  margin: 21px auto 0;
+  width: 30px;
+}
